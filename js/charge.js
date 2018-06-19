@@ -1,5 +1,5 @@
 // Create a Stripe client.
-var stripe = Stripe('pk_test_g6do5S237ekq10r65BnxO6S0');
+var stripe = Stripe('pk_test_2hJ4JqpxkjK0klzZnO41MkD4');
 
 // Create an instance of Elements.
 var elements = stripe.elements();
@@ -23,9 +23,8 @@ var style = {
 };
 
 // Style button with bootstrap
-document
-  .querySelector("#payment-form button")
-  .classList = 'btn btn-primary btn-block mt-4';
+document.querySelector('#payment-form button').classList =
+  'btn btn-primary btn-block mt-4';
 
 // Create an instance of the card Element.
 var card = elements.create('card', { style: style });

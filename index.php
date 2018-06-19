@@ -16,6 +16,7 @@
         <input type="text" name="first_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name">
         <input type="text" name="last_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name">
         <input type="email" name="email" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
+        <input type="number" name="amount" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Amount">
         <div id="card-element" class="form-control" >
           <!-- A Stripe Element will be inserted here. -->
         </div>
